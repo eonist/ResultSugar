@@ -1,0 +1,2 @@
+# ResultSugar
+Sugar for Result
