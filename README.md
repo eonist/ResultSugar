@@ -2,7 +2,7 @@
 Sugar for Result
 
 ### Install:
-- Carthage ` "https://github.com/eonist/ResultSugar" branch: "master"`
+- Carthage ` "https://github.com/eonist/ResultSugar.git" branch: "master"`
 - Manual Open `.xcodeproj`
 
 ### Examples:
