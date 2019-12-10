@@ -49,3 +49,16 @@ extension Result {
       return try? self.get() as? Success
    }
 }
+/**
+ * Error Extension
+ */
+extension NSError {
+   /**
+    * Convenient error method
+    * ## Examples:
+    * onComplete(.failure(.error("UhOh")))
+    */
+   static func error(_ message: String) -> NSError {
+      return NSError(domain: message, code: 0)
+   }
+}
