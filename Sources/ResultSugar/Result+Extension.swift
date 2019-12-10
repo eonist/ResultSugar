@@ -58,7 +58,7 @@ extension NSError {
     * ## Examples:
     * onComplete(.failure(.error("UhOh")))
     */
-   static func error(_ message: String) -> NSError {
+   public static func error(_ message: String) -> NSError {
       return NSError(domain: message, code: 0)
    }
 }
