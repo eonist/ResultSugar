@@ -27,7 +27,7 @@ extension Result {
     * - Note: When you need non-optional return
     */
    public func getError() -> Error {
-       guard case .failure(let error) = self else { return NSError.init(domain: "Generic error", code: 0) }
+       guard case .failure(let error) = self else { return NSError(domain: "Generic error", code: 0) }
        return error
    }
    /**

@@ -7,19 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F16F61D3234107DE00574EBE /* ResultSugariOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F16F61D1234107DE00574EBE /* ResultSugariOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F16F61DB2341083900574EBE /* Result+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16F61DA2341083900574EBE /* Result+Extension.swift */; };
+		F165C213239FC544005D30EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F165C212239FC544005D30EC /* AppDelegate.swift */; };
+		F165C215239FC54D005D30EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F165C214239FC54D005D30EC /* Assets.xcassets */; };
+		F165C218239FC54D005D30EC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F165C216239FC54D005D30EC /* MainMenu.xib */; };
+		F165C225239FC568005D30EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F165C224239FC568005D30EC /* AppDelegate.swift */; };
+		F165C22E239FC56A005D30EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F165C22D239FC56A005D30EC /* Assets.xcassets */; };
+		F165C231239FC56A005D30EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F165C22F239FC56A005D30EC /* LaunchScreen.storyboard */; };
+		F165C236239FC571005D30EC /* Result+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16F61DA2341083900574EBE /* Result+Extension.swift */; };
+		F165C237239FC571005D30EC /* Result+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16F61DA2341083900574EBE /* Result+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F16F61CE234107DE00574EBE /* ResultSugariOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ResultSugariOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F16F61D1234107DE00574EBE /* ResultSugariOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultSugariOS.h; sourceTree = "<group>"; };
-		F16F61D2234107DE00574EBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F165C210239FC544005D30EC /* ResultSugarMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResultSugarMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F165C212239FC544005D30EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F165C214239FC54D005D30EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F165C217239FC54D005D30EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F165C219239FC54D005D30EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F165C21A239FC54D005D30EC /* ResultSugarMacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ResultSugarMacOS.entitlements; sourceTree = "<group>"; };
+		F165C222239FC568005D30EC /* ResultSugar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResultSugar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F165C224239FC568005D30EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F165C22D239FC56A005D30EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F165C230239FC56A005D30EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F165C232239FC56A005D30EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F16F61DA2341083900574EBE /* Result+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Result+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F16F61CB234107DE00574EBE /* Frameworks */ = {
+		F165C20D239FC544005D30EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F165C21F239FC568005D30EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,11 +50,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F165C211239FC544005D30EC /* ResultSugarMacOS */ = {
+			isa = PBXGroup;
+			children = (
+				F165C212239FC544005D30EC /* AppDelegate.swift */,
+				F165C214239FC54D005D30EC /* Assets.xcassets */,
+				F165C216239FC54D005D30EC /* MainMenu.xib */,
+				F165C219239FC54D005D30EC /* Info.plist */,
+				F165C21A239FC54D005D30EC /* ResultSugarMacOS.entitlements */,
+			);
+			path = ResultSugarMacOS;
+			sourceTree = "<group>";
+		};
+		F165C223239FC568005D30EC /* ResultSugar */ = {
+			isa = PBXGroup;
+			children = (
+				F165C224239FC568005D30EC /* AppDelegate.swift */,
+				F165C22D239FC56A005D30EC /* Assets.xcassets */,
+				F165C22F239FC56A005D30EC /* LaunchScreen.storyboard */,
+				F165C232239FC56A005D30EC /* Info.plist */,
+			);
+			path = ResultSugar;
+			sourceTree = "<group>";
+		};
 		F16F61C4234107DE00574EBE = {
 			isa = PBXGroup;
 			children = (
 				F16F61D92341081100574EBE /* src */,
-				F16F61D0234107DE00574EBE /* ResultSugariOS */,
+				F165C211239FC544005D30EC /* ResultSugarMacOS */,
+				F165C223239FC568005D30EC /* ResultSugar */,
 				F16F61CF234107DE00574EBE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,18 +86,10 @@
 		F16F61CF234107DE00574EBE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F16F61CE234107DE00574EBE /* ResultSugariOS.framework */,
+				F165C210239FC544005D30EC /* ResultSugarMacOS.app */,
+				F165C222239FC568005D30EC /* ResultSugar.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F16F61D0234107DE00574EBE /* ResultSugariOS */ = {
-			isa = PBXGroup;
-			children = (
-				F16F61D1234107DE00574EBE /* ResultSugariOS.h */,
-				F16F61D2234107DE00574EBE /* Info.plist */,
-			);
-			path = ResultSugariOS;
 			sourceTree = "<group>";
 		};
 		F16F61D92341081100574EBE /* src */ = {
@@ -65,35 +102,42 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		F16F61C9234107DE00574EBE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F16F61D3234107DE00574EBE /* ResultSugariOS.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		F16F61CD234107DE00574EBE /* ResultSugariOS */ = {
+		F165C20F239FC544005D30EC /* ResultSugarMacOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F16F61D6234107DE00574EBE /* Build configuration list for PBXNativeTarget "ResultSugariOS" */;
+			buildConfigurationList = F165C21B239FC54D005D30EC /* Build configuration list for PBXNativeTarget "ResultSugarMacOS" */;
 			buildPhases = (
-				F16F61C9234107DE00574EBE /* Headers */,
-				F16F61CA234107DE00574EBE /* Sources */,
-				F16F61CB234107DE00574EBE /* Frameworks */,
-				F16F61CC234107DE00574EBE /* Resources */,
+				F165C20C239FC544005D30EC /* Sources */,
+				F165C20D239FC544005D30EC /* Frameworks */,
+				F165C20E239FC544005D30EC /* Resources */,
+				F165C239239FC588005D30EC /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ResultSugariOS;
-			productName = ResultSugariOS;
-			productReference = F16F61CE234107DE00574EBE /* ResultSugariOS.framework */;
-			productType = "com.apple.product-type.framework";
+			name = ResultSugarMacOS;
+			productName = ResultSugarMacOS;
+			productReference = F165C210239FC544005D30EC /* ResultSugarMacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F165C221239FC568005D30EC /* ResultSugar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F165C233239FC56A005D30EC /* Build configuration list for PBXNativeTarget "ResultSugar" */;
+			buildPhases = (
+				F165C21E239FC568005D30EC /* Sources */,
+				F165C21F239FC568005D30EC /* Frameworks */,
+				F165C220239FC568005D30EC /* Resources */,
+				F165C238239FC57A005D30EC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResultSugar;
+			productName = ResultSugar;
+			productReference = F165C222239FC568005D30EC /* ResultSugar.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -101,12 +145,15 @@
 		F16F61C5234107DE00574EBE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = FutureLab;
 				TargetAttributes = {
-					F16F61CD234107DE00574EBE = {
-						CreatedOnToolsVersion = 10.2;
-						LastSwiftMigration = 1020;
+					F165C20F239FC544005D30EC = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					F165C221239FC568005D30EC = {
+						CreatedOnToolsVersion = 11.2;
 					};
 				};
 			};
@@ -116,39 +163,196 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = F16F61C4234107DE00574EBE;
 			productRefGroup = F16F61CF234107DE00574EBE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F16F61CD234107DE00574EBE /* ResultSugariOS */,
+				F165C20F239FC544005D30EC /* ResultSugarMacOS */,
+				F165C221239FC568005D30EC /* ResultSugar */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F16F61CC234107DE00574EBE /* Resources */ = {
+		F165C20E239FC544005D30EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F165C215239FC54D005D30EC /* Assets.xcassets in Resources */,
+				F165C218239FC54D005D30EC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F165C220239FC568005D30EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F165C231239FC56A005D30EC /* LaunchScreen.storyboard in Resources */,
+				F165C22E239FC56A005D30EC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F165C238239FC57A005D30EC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		F165C239239FC588005D30EC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		F16F61CA234107DE00574EBE /* Sources */ = {
+		F165C20C239FC544005D30EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F16F61DB2341083900574EBE /* Result+Extension.swift in Sources */,
+				F165C237239FC571005D30EC /* Result+Extension.swift in Sources */,
+				F165C213239FC544005D30EC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F165C21E239FC568005D30EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F165C236239FC571005D30EC /* Result+Extension.swift in Sources */,
+				F165C225239FC568005D30EC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		F165C216239FC54D005D30EC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F165C217239FC54D005D30EC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		F165C22F239FC56A005D30EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F165C230239FC56A005D30EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		F165C21C239FC54D005D30EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ResultSugarMacOS/ResultSugarMacOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ResultSugarMacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.futurelab.ResultSugarMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F165C21D239FC54D005D30EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ResultSugarMacOS/ResultSugarMacOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ResultSugarMacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.futurelab.ResultSugarMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F165C234239FC56A005D30EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ResultSugar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.futurelab.ResultSugar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F165C235239FC56A005D30EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ResultSugar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.futurelab.ResultSugar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 		F16F61D4234107DE00574EBE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -271,76 +475,32 @@
 			};
 			name = Release;
 		};
-		F16F61D7234107DE00574EBE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ResultSugariOS/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.futurelab.ResultSugariOS;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		F16F61D8234107DE00574EBE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ResultSugariOS/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.futurelab.ResultSugariOS;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F165C21B239FC54D005D30EC /* Build configuration list for PBXNativeTarget "ResultSugarMacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F165C21C239FC54D005D30EC /* Debug */,
+				F165C21D239FC54D005D30EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F165C233239FC56A005D30EC /* Build configuration list for PBXNativeTarget "ResultSugar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F165C234239FC56A005D30EC /* Debug */,
+				F165C235239FC56A005D30EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F16F61C8234107DE00574EBE /* Build configuration list for PBXProject "ResultSugariOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F16F61D4234107DE00574EBE /* Debug */,
 				F16F61D5234107DE00574EBE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F16F61D6234107DE00574EBE /* Build configuration list for PBXNativeTarget "ResultSugariOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F16F61D7234107DE00574EBE /* Debug */,
-				F16F61D8234107DE00574EBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
