@@ -56,6 +56,16 @@ extension NSError {
    /**
     * Convenient error method
     * ## Examples:
+    * onComplete(.failure(NSError("UhOh")))
+    */
+   public convenience init(_ message: String) {
+      self.init(domain: message, code: 0)
+   }
+}
+extension Error {
+   /**
+    * Convenient error method
+    * ## Examples:
     * onComplete(.failure(.error("UhOh")))
     */
    public static func error(_ message: String) -> NSError {
