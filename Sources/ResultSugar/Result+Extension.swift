@@ -62,13 +62,13 @@ extension NSError {
       self.init(domain: message, code: 0)
    }
 }
-extension Error {
-   /**
-    * Convenient error method
-    * ## Examples:
-    * onComplete(.failure(.error("UhOh")))
-    */
-   public static func error(_ message: String) -> NSError {
-      return NSError(domain: message, code: 0)
-   }
-}
+//extension Error {
+//   /**
+//    * Convenient error method
+//    * ## Examples:
+//    * onComplete(.failure(.error("UhOh")))
+//    */
+//   public static func error(_ message: String) -> NSError {
+//      return NSError(domain: message, code: 0)
+//   }
+//}
