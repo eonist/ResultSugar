@@ -45,7 +45,7 @@ extension Result {
     * imageAndURL.image // UIImage
     * imageAndURL.url // URL
     */
-   public func value<T>() -> T? {
-      return try? self.get() as? T
+   public func value<Success>() -> Success? {
+      return try? self.get() as? Success
    }
 }
