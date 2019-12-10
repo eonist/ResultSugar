@@ -2,9 +2,8 @@
 Sugar for Result
 
 ### Install:
-- Carthage `github "eonist/SomeFramework"`
-- Manual Open `SomeFrameworkExample.xcodeproj`
-- CocoaPod (Coming soon)
+- Carthage ` "https://github.com/eonist/ResultSugar" branch: "master"`
+- Manual Open `.xcodeproj`
 
 ### Examples:
 ```swift
