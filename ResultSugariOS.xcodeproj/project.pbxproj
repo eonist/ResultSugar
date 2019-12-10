@@ -73,10 +73,26 @@
 			path = ResultSugar;
 			sourceTree = "<group>";
 		};
+		F165C23C239FC71D005D30EC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F165C23D239FC71D005D30EC /* ResultSugar */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F165C23D239FC71D005D30EC /* ResultSugar */ = {
+			isa = PBXGroup;
+			children = (
+				F16F61DA2341083900574EBE /* Result+Extension.swift */,
+			);
+			path = ResultSugar;
+			sourceTree = "<group>";
+		};
 		F16F61C4234107DE00574EBE = {
 			isa = PBXGroup;
 			children = (
-				F16F61D92341081100574EBE /* src */,
+				F165C23C239FC71D005D30EC /* Sources */,
 				F165C211239FC544005D30EC /* ResultSugarMacOS */,
 				F165C223239FC568005D30EC /* ResultSugar */,
 				F16F61CF234107DE00574EBE /* Products */,
@@ -90,14 +106,6 @@
 				F165C222239FC568005D30EC /* ResultSugar.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F16F61D92341081100574EBE /* src */ = {
-			isa = PBXGroup;
-			children = (
-				F16F61DA2341083900574EBE /* Result+Extension.swift */,
-			);
-			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

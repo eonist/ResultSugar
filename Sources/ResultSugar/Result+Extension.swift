@@ -8,6 +8,9 @@ extension Result where Success == Void {
       return .success(())
    }
 }
+/**
+ * Error
+ */
 extension Result {
    /**
     * - Note: Sometimes you just want to do print($0.errorStr)
@@ -30,7 +33,13 @@ extension Result {
        guard case .failure(let error) = self else { return NSError(domain: "Generic error", code: 0) }
        return error
    }
+}
+/**
+ * Value
+ */
+extension Result {
    /**
+    * - Note: Skip the optional try call and go directly for the value
     * ## Examples
     * guard let imageAndURL: (UIImage, URL) = $0.value else { return }
     * imageAndURL.image // UIImage
