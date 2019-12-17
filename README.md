@@ -1,3 +1,5 @@
+[![codebeat badge](https://codebeat.co/badges/cb649e6d-a601-47c5-b2c4-179158d5f431)](https://codebeat.co/projects/github-com-eonist-resultsugar-master)
+
 # ResultSugar
 Sugar for Result
 
