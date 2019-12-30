@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F15C9F8923BA88A900F9D524 /* ResultSugarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15C9F8823BA88A900F9D524 /* ResultSugarTests.swift */; };
 		F165C213239FC544005D30EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F165C212239FC544005D30EC /* AppDelegate.swift */; };
 		F165C215239FC54D005D30EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F165C214239FC54D005D30EC /* Assets.xcassets */; };
 		F165C218239FC54D005D30EC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F165C216239FC54D005D30EC /* MainMenu.xib */; };
@@ -17,7 +18,20 @@
 		F165C237239FC571005D30EC /* Result+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16F61DA2341083900574EBE /* Result+Extension.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F15C9F8B23BA88A900F9D524 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F16F61C5234107DE00574EBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F165C221239FC568005D30EC;
+			remoteInfo = ResultSugar;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		F15C9F8623BA88A900F9D524 /* ResultSugarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResultSugarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15C9F8823BA88A900F9D524 /* ResultSugarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultSugarTests.swift; sourceTree = "<group>"; };
+		F15C9F8A23BA88A900F9D524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F165C210239FC544005D30EC /* ResultSugarMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResultSugarMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F165C212239FC544005D30EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F165C214239FC54D005D30EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -33,6 +47,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F15C9F8323BA88A900F9D524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F165C20D239FC544005D30EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -50,6 +71,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F15C9F8723BA88A900F9D524 /* ResultSugarTests */ = {
+			isa = PBXGroup;
+			children = (
+				F15C9F8823BA88A900F9D524 /* ResultSugarTests.swift */,
+				F15C9F8A23BA88A900F9D524 /* Info.plist */,
+			);
+			path = ResultSugarTests;
+			sourceTree = "<group>";
+		};
+		F15C9F9023BA88B400F9D524 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F15C9F8723BA88A900F9D524 /* ResultSugarTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 		F165C211239FC544005D30EC /* ResultSugarMacOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +130,7 @@
 		F16F61C4234107DE00574EBE = {
 			isa = PBXGroup;
 			children = (
+				F15C9F9023BA88B400F9D524 /* Tests */,
 				F165C23C239FC71D005D30EC /* Sources */,
 				F165C211239FC544005D30EC /* ResultSugarMacOS */,
 				F165C223239FC568005D30EC /* ResultSugar */,
@@ -104,6 +143,7 @@
 			children = (
 				F165C210239FC544005D30EC /* ResultSugarMacOS.app */,
 				F165C222239FC568005D30EC /* ResultSugar.app */,
+				F15C9F8623BA88A900F9D524 /* ResultSugarTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,6 +151,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F15C9F8523BA88A900F9D524 /* ResultSugarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F15C9F8F23BA88A900F9D524 /* Build configuration list for PBXNativeTarget "ResultSugarTests" */;
+			buildPhases = (
+				F15C9F8223BA88A900F9D524 /* Sources */,
+				F15C9F8323BA88A900F9D524 /* Frameworks */,
+				F15C9F8423BA88A900F9D524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F15C9F8C23BA88A900F9D524 /* PBXTargetDependency */,
+			);
+			name = ResultSugarTests;
+			productName = ResultSugarTests;
+			productReference = F15C9F8623BA88A900F9D524 /* ResultSugarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F165C20F239FC544005D30EC /* ResultSugarMacOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F165C21B239FC54D005D30EC /* Build configuration list for PBXNativeTarget "ResultSugarMacOS" */;
@@ -157,6 +215,10 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = FutureLab;
 				TargetAttributes = {
+					F15C9F8523BA88A900F9D524 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = F165C221239FC568005D30EC;
+					};
 					F165C20F239FC544005D30EC = {
 						CreatedOnToolsVersion = 11.2;
 					};
@@ -180,11 +242,19 @@
 			targets = (
 				F165C20F239FC544005D30EC /* ResultSugarMacOS */,
 				F165C221239FC568005D30EC /* ResultSugar */,
+				F15C9F8523BA88A900F9D524 /* ResultSugarTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F15C9F8423BA88A900F9D524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F165C20E239FC544005D30EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -243,6 +313,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F15C9F8223BA88A900F9D524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15C9F8923BA88A900F9D524 /* ResultSugarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F165C20C239FC544005D30EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -262,6 +340,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F15C9F8C23BA88A900F9D524 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F165C221239FC568005D30EC /* ResultSugar */;
+			targetProxy = F15C9F8B23BA88A900F9D524 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F165C216239FC54D005D30EC /* MainMenu.xib */ = {
@@ -283,6 +369,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F15C9F8D23BA88A900F9D524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tests/ResultSugarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.futurelab.ResultSugarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResultSugar.app/ResultSugar";
+			};
+			name = Debug;
+		};
+		F15C9F8E23BA88A900F9D524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tests/ResultSugarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.futurelab.ResultSugarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResultSugar.app/ResultSugar";
+			};
+			name = Release;
+		};
 		F165C21C239FC54D005D30EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -486,6 +612,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F15C9F8F23BA88A900F9D524 /* Build configuration list for PBXNativeTarget "ResultSugarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15C9F8D23BA88A900F9D524 /* Debug */,
+				F15C9F8E23BA88A900F9D524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F165C21B239FC54D005D30EC /* Build configuration list for PBXNativeTarget "ResultSugarMacOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
