@@ -23,7 +23,7 @@ static func assert(flag: Bool, complete: OnComplete) {
   if flag {
      complete(.success("Works 👌"))
   } else {
-     complete(.failure(NSError("Doen't work 🚫")))
+     complete(.failure(NSError("Doesn't work 🚫")))
   }
 }
 ```
