@@ -5,7 +5,7 @@ import Foundation
  */
 extension Result where Success == Void {
    public static var success: Result {
-      return .success(())
+      .success(())
    }
 }
 /**
@@ -46,7 +46,7 @@ extension Result {
     * imageAndURL.url // URL
     */
    public func value<Success>() -> Success? {
-      return try? self.get() as? Success
+      try? self.get() as? Success
    }
 }
 /**
@@ -72,3 +72,14 @@ extension NSError {
 //      return NSError(domain: message, code: 0)
 //   }
 //}
+extension Result {
+   /**
+    * Simple way to assert if the call was a success or not:
+    * ## Examples:
+    * onComplete { print("\(0$.isSuccess ? "✅" : "🚫")") } // ✅ or 🚫
+    */
+   public var isSuccess: Bool {
+      if case .success(_) = self { return true }
+      else { return false }
+   }
+}

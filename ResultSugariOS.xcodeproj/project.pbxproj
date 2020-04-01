@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F15C9F8923BA88A900F9D524 /* ResultSugarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15C9F8823BA88A900F9D524 /* ResultSugarTests.swift */; };
 		F165C213239FC544005D30EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F165C212239FC544005D30EC /* AppDelegate.swift */; };
 		F165C215239FC54D005D30EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F165C214239FC54D005D30EC /* Assets.xcassets */; };
 		F165C218239FC54D005D30EC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F165C216239FC54D005D30EC /* MainMenu.xib */; };
@@ -30,8 +29,6 @@
 
 /* Begin PBXFileReference section */
 		F15C9F8623BA88A900F9D524 /* ResultSugarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResultSugarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F15C9F8823BA88A900F9D524 /* ResultSugarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultSugarTests.swift; sourceTree = "<group>"; };
-		F15C9F8A23BA88A900F9D524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F165C210239FC544005D30EC /* ResultSugarMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResultSugarMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F165C212239FC544005D30EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F165C214239FC54D005D30EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,23 +68,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F15C9F8723BA88A900F9D524 /* ResultSugarTests */ = {
-			isa = PBXGroup;
-			children = (
-				F15C9F8823BA88A900F9D524 /* ResultSugarTests.swift */,
-				F15C9F8A23BA88A900F9D524 /* Info.plist */,
-			);
-			path = ResultSugarTests;
-			sourceTree = "<group>";
-		};
-		F15C9F9023BA88B400F9D524 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				F15C9F8723BA88A900F9D524 /* ResultSugarTests */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
 		F165C211239FC544005D30EC /* ResultSugarMacOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,7 +110,6 @@
 		F16F61C4234107DE00574EBE = {
 			isa = PBXGroup;
 			children = (
-				F15C9F9023BA88B400F9D524 /* Tests */,
 				F165C23C239FC71D005D30EC /* Sources */,
 				F165C211239FC544005D30EC /* ResultSugarMacOS */,
 				F165C223239FC568005D30EC /* ResultSugar */,
@@ -317,7 +296,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F15C9F8923BA88A900F9D524 /* ResultSugarTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
