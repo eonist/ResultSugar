@@ -7,58 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F165C213239FC544005D30EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F165C212239FC544005D30EC /* AppDelegate.swift */; };
-		F165C215239FC54D005D30EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F165C214239FC54D005D30EC /* Assets.xcassets */; };
-		F165C218239FC54D005D30EC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F165C216239FC54D005D30EC /* MainMenu.xib */; };
-		F165C225239FC568005D30EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F165C224239FC568005D30EC /* AppDelegate.swift */; };
-		F165C22E239FC56A005D30EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F165C22D239FC56A005D30EC /* Assets.xcassets */; };
-		F165C231239FC56A005D30EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F165C22F239FC56A005D30EC /* LaunchScreen.storyboard */; };
-		F165C236239FC571005D30EC /* Result+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16F61DA2341083900574EBE /* Result+Extension.swift */; };
-		F165C237239FC571005D30EC /* Result+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16F61DA2341083900574EBE /* Result+Extension.swift */; };
+		F1471FAB248BEC29008A01AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1471FAA248BEC29008A01AD /* AppDelegate.swift */; };
+		F1471FB4248BEC2D008A01AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1471FB3248BEC2D008A01AD /* Assets.xcassets */; };
+		F1471FB7248BEC2D008A01AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1471FB5248BEC2D008A01AD /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F15C9F8B23BA88A900F9D524 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F16F61C5234107DE00574EBE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F165C221239FC568005D30EC;
-			remoteInfo = ResultSugar;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		F15C9F8623BA88A900F9D524 /* ResultSugarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResultSugarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F165C210239FC544005D30EC /* ResultSugarMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResultSugarMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F165C212239FC544005D30EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F165C214239FC54D005D30EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F165C217239FC54D005D30EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		F165C219239FC54D005D30EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F165C21A239FC54D005D30EC /* ResultSugarMacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ResultSugarMacOS.entitlements; sourceTree = "<group>"; };
-		F165C222239FC568005D30EC /* ResultSugar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResultSugar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F165C224239FC568005D30EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F165C22D239FC56A005D30EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F165C230239FC56A005D30EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F165C232239FC56A005D30EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1471FA8248BEC29008A01AD /* ResultSugarExampleiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResultSugarExampleiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1471FAA248BEC29008A01AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1471FB3248BEC2D008A01AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1471FB6248BEC2D008A01AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1471FB8248BEC2D008A01AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F16F61DA2341083900574EBE /* Result+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Result+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F15C9F8323BA88A900F9D524 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F165C20D239FC544005D30EC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F165C21F239FC568005D30EC /* Frameworks */ = {
+		F1471FA5248BEC29008A01AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -68,27 +32,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F165C211239FC544005D30EC /* ResultSugarMacOS */ = {
+		F1471FA9248BEC29008A01AD /* ResultSugarExampleiOS */ = {
 			isa = PBXGroup;
 			children = (
-				F165C212239FC544005D30EC /* AppDelegate.swift */,
-				F165C214239FC54D005D30EC /* Assets.xcassets */,
-				F165C216239FC54D005D30EC /* MainMenu.xib */,
-				F165C219239FC54D005D30EC /* Info.plist */,
-				F165C21A239FC54D005D30EC /* ResultSugarMacOS.entitlements */,
+				F1471FAA248BEC29008A01AD /* AppDelegate.swift */,
+				F1471FB3248BEC2D008A01AD /* Assets.xcassets */,
+				F1471FB5248BEC2D008A01AD /* LaunchScreen.storyboard */,
+				F1471FB8248BEC2D008A01AD /* Info.plist */,
 			);
-			path = ResultSugarMacOS;
-			sourceTree = "<group>";
-		};
-		F165C223239FC568005D30EC /* ResultSugar */ = {
-			isa = PBXGroup;
-			children = (
-				F165C224239FC568005D30EC /* AppDelegate.swift */,
-				F165C22D239FC56A005D30EC /* Assets.xcassets */,
-				F165C22F239FC56A005D30EC /* LaunchScreen.storyboard */,
-				F165C232239FC56A005D30EC /* Info.plist */,
-			);
-			path = ResultSugar;
+			path = ResultSugarExampleiOS;
 			sourceTree = "<group>";
 		};
 		F165C23C239FC71D005D30EC /* Sources */ = {
@@ -111,8 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				F165C23C239FC71D005D30EC /* Sources */,
-				F165C211239FC544005D30EC /* ResultSugarMacOS */,
-				F165C223239FC568005D30EC /* ResultSugar */,
+				F1471FA9248BEC29008A01AD /* ResultSugarExampleiOS */,
 				F16F61CF234107DE00574EBE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -120,9 +71,7 @@
 		F16F61CF234107DE00574EBE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F165C210239FC544005D30EC /* ResultSugarMacOS.app */,
-				F165C222239FC568005D30EC /* ResultSugar.app */,
-				F15C9F8623BA88A900F9D524 /* ResultSugarTests.xctest */,
+				F1471FA8248BEC29008A01AD /* ResultSugarExampleiOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,58 +79,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F15C9F8523BA88A900F9D524 /* ResultSugarTests */ = {
+		F1471FA7248BEC29008A01AD /* ResultSugarExampleiOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F15C9F8F23BA88A900F9D524 /* Build configuration list for PBXNativeTarget "ResultSugarTests" */;
+			buildConfigurationList = F1471FB9248BEC2D008A01AD /* Build configuration list for PBXNativeTarget "ResultSugarExampleiOS" */;
 			buildPhases = (
-				F15C9F8223BA88A900F9D524 /* Sources */,
-				F15C9F8323BA88A900F9D524 /* Frameworks */,
-				F15C9F8423BA88A900F9D524 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F15C9F8C23BA88A900F9D524 /* PBXTargetDependency */,
-			);
-			name = ResultSugarTests;
-			productName = ResultSugarTests;
-			productReference = F15C9F8623BA88A900F9D524 /* ResultSugarTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F165C20F239FC544005D30EC /* ResultSugarMacOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F165C21B239FC54D005D30EC /* Build configuration list for PBXNativeTarget "ResultSugarMacOS" */;
-			buildPhases = (
-				F165C20C239FC544005D30EC /* Sources */,
-				F165C20D239FC544005D30EC /* Frameworks */,
-				F165C20E239FC544005D30EC /* Resources */,
-				F165C239239FC588005D30EC /* ShellScript */,
+				F1471FA4248BEC29008A01AD /* Sources */,
+				F1471FA5248BEC29008A01AD /* Frameworks */,
+				F1471FA6248BEC29008A01AD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ResultSugarMacOS;
-			productName = ResultSugarMacOS;
-			productReference = F165C210239FC544005D30EC /* ResultSugarMacOS.app */;
-			productType = "com.apple.product-type.application";
-		};
-		F165C221239FC568005D30EC /* ResultSugar */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F165C233239FC56A005D30EC /* Build configuration list for PBXNativeTarget "ResultSugar" */;
-			buildPhases = (
-				F165C21E239FC568005D30EC /* Sources */,
-				F165C21F239FC568005D30EC /* Frameworks */,
-				F165C220239FC568005D30EC /* Resources */,
-				F165C238239FC57A005D30EC /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ResultSugar;
-			productName = ResultSugar;
-			productReference = F165C222239FC568005D30EC /* ResultSugar.app */;
+			name = ResultSugarExampleiOS;
+			productName = ResultSugarExampleiOS;
+			productReference = F1471FA8248BEC29008A01AD /* ResultSugarExampleiOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -190,19 +102,12 @@
 		F16F61C5234107DE00574EBE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1120;
+				LastSwiftUpdateCheck = 1150;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = FutureLab;
 				TargetAttributes = {
-					F15C9F8523BA88A900F9D524 = {
-						CreatedOnToolsVersion = 11.2;
-						TestTargetID = F165C221239FC568005D30EC;
-					};
-					F165C20F239FC544005D30EC = {
-						CreatedOnToolsVersion = 11.2;
-					};
-					F165C221239FC568005D30EC = {
-						CreatedOnToolsVersion = 11.2;
+					F1471FA7248BEC29008A01AD = {
+						CreatedOnToolsVersion = 11.5;
 					};
 				};
 			};
@@ -219,127 +124,39 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F165C20F239FC544005D30EC /* ResultSugarMacOS */,
-				F165C221239FC568005D30EC /* ResultSugar */,
-				F15C9F8523BA88A900F9D524 /* ResultSugarTests */,
+				F1471FA7248BEC29008A01AD /* ResultSugarExampleiOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F15C9F8423BA88A900F9D524 /* Resources */ = {
+		F1471FA6248BEC29008A01AD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F165C20E239FC544005D30EC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F165C215239FC54D005D30EC /* Assets.xcassets in Resources */,
-				F165C218239FC54D005D30EC /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F165C220239FC568005D30EC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F165C231239FC56A005D30EC /* LaunchScreen.storyboard in Resources */,
-				F165C22E239FC56A005D30EC /* Assets.xcassets in Resources */,
+				F1471FB7248BEC2D008A01AD /* LaunchScreen.storyboard in Resources */,
+				F1471FB4248BEC2D008A01AD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		F165C238239FC57A005D30EC /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
-		};
-		F165C239239FC588005D30EC /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		F15C9F8223BA88A900F9D524 /* Sources */ = {
+		F1471FA4248BEC29008A01AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F165C20C239FC544005D30EC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F165C237239FC571005D30EC /* Result+Extension.swift in Sources */,
-				F165C213239FC544005D30EC /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F165C21E239FC568005D30EC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F165C236239FC571005D30EC /* Result+Extension.swift in Sources */,
-				F165C225239FC568005D30EC /* AppDelegate.swift in Sources */,
+				F1471FAB248BEC29008A01AD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		F15C9F8C23BA88A900F9D524 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F165C221239FC568005D30EC /* ResultSugar */;
-			targetProxy = F15C9F8B23BA88A900F9D524 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		F165C216239FC54D005D30EC /* MainMenu.xib */ = {
+		F1471FB5248BEC2D008A01AD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F165C217239FC54D005D30EC /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		F165C22F239FC56A005D30EC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F165C230239FC56A005D30EC /* Base */,
+				F1471FB6248BEC2D008A01AD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -347,121 +164,39 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F15C9F8D23BA88A900F9D524 /* Debug */ = {
+		F1471FBA248BEC2D008A01AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Tests/ResultSugarTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				INFOPLIST_FILE = ResultSugarExampleiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.futurelab.ResultSugarTests;
+				PRODUCT_BUNDLE_IDENTIFIER = co.passbook.ResultSugarExampleiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResultSugar.app/ResultSugar";
 			};
 			name = Debug;
 		};
-		F15C9F8E23BA88A900F9D524 /* Release */ = {
+		F1471FBB248BEC2D008A01AD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Tests/ResultSugarTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				INFOPLIST_FILE = ResultSugarExampleiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.futurelab.ResultSugarTests;
+				PRODUCT_BUNDLE_IDENTIFIER = co.passbook.ResultSugarExampleiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResultSugar.app/ResultSugar";
-			};
-			name = Release;
-		};
-		F165C21C239FC54D005D30EC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ResultSugarMacOS/ResultSugarMacOS.entitlements;
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = ResultSugarMacOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.futurelab.ResultSugarMacOS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		F165C21D239FC54D005D30EC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ResultSugarMacOS/ResultSugarMacOS.entitlements;
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = ResultSugarMacOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.futurelab.ResultSugarMacOS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		F165C234239FC56A005D30EC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ResultSugar/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.futurelab.ResultSugar;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
-		};
-		F165C235239FC56A005D30EC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ResultSugar/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.futurelab.ResultSugar;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -590,29 +325,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F15C9F8F23BA88A900F9D524 /* Build configuration list for PBXNativeTarget "ResultSugarTests" */ = {
+		F1471FB9248BEC2D008A01AD /* Build configuration list for PBXNativeTarget "ResultSugarExampleiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F15C9F8D23BA88A900F9D524 /* Debug */,
-				F15C9F8E23BA88A900F9D524 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F165C21B239FC54D005D30EC /* Build configuration list for PBXNativeTarget "ResultSugarMacOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F165C21C239FC54D005D30EC /* Debug */,
-				F165C21D239FC54D005D30EC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F165C233239FC56A005D30EC /* Build configuration list for PBXNativeTarget "ResultSugar" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F165C234239FC56A005D30EC /* Debug */,
-				F165C235239FC56A005D30EC /* Release */,
+				F1471FBA248BEC2D008A01AD /* Debug */,
+				F1471FBB248BEC2D008A01AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
