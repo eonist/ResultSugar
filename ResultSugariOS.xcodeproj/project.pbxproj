@@ -10,6 +10,7 @@
 		F1471FAB248BEC29008A01AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1471FAA248BEC29008A01AD /* AppDelegate.swift */; };
 		F1471FB4248BEC2D008A01AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1471FB3248BEC2D008A01AD /* Assets.xcassets */; };
 		F1471FB7248BEC2D008A01AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1471FB5248BEC2D008A01AD /* LaunchScreen.storyboard */; };
+		F1471FBD248BEF55008A01AD /* Result+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16F61DA2341083900574EBE /* Result+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 				F1471FA4248BEC29008A01AD /* Sources */,
 				F1471FA5248BEC29008A01AD /* Frameworks */,
 				F1471FA6248BEC29008A01AD /* Resources */,
+				F1471FBC248BEF24008A01AD /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -141,11 +143,32 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F1471FBC248BEF24008A01AD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F1471FA4248BEC29008A01AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1471FBD248BEF55008A01AD /* Result+Extension.swift in Sources */,
 				F1471FAB248BEC29008A01AD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
