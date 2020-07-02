@@ -2,7 +2,7 @@
 ![mit](https://img.shields.io/badge/License-MIT-brightgreen.svg)
 [![SwiftLint Sindre](https://img.shields.io/badge/SwiftLint-Sindre-hotpink.svg)](https://github.com/sindresorhus/swiftlint-sindre)
 [![codebeat badge](https://codebeat.co/badges/cb649e6d-a601-47c5-b2c4-179158d5f431)](https://codebeat.co/projects/github-com-eonist-resultsugar-master)
-![Builds](https://github.com/eonist/ResultSugar/workflows/Swift/badge.svg)
+![Builds](https://github.com/eonist/ResultSugar/workflows/Builds/badge.svg)
 
 # ResultSugar
 Sugar for Result
