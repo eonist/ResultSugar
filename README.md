@@ -26,3 +26,7 @@ static func assert(flag: Bool, complete: OnComplete) {
   }
 }
 ```
+
+### Todo: 
+- Make more succinct example
+- Make more examples
