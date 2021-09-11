@@ -8,7 +8,7 @@
 Sugar for Result
 
 ### Install:
-- Carthage ` .url("https://github.com/eonist/ResultSugar.git"), .branch("master")`
+- SPM: ` .url("https://github.com/eonist/ResultSugar.git"), .branch("master")`
 - Manual Open `.xcodeproj`
 
 ### Example:
@@ -27,6 +27,6 @@ static func assert(flag: Bool, complete: OnComplete) {
 }
 ```
 
-### Todo: 
+### Todo:
 - Make more succinct example
 - Make more examples
