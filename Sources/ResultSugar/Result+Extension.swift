@@ -1,7 +1,7 @@
 import Foundation
 /**
  * - Note: You can now do: .success instead of .success(()) When using Result<Void, MicAndVideoAccessError>
- * - Note: ref this discussion: https://stackoverflow.com/questions/45837915/generic-swift-4-enum-with-void-associated-type
+ * - Note: Ref this discussion: https://stackoverflow.com/questions/45837915/generic-swift-4-enum-with-void-associated-type
  */
 extension Result where Success == Void {
    public static var success: Result {
