@@ -79,7 +79,7 @@ extension Result {
     * onComplete { print("\(0$.isSuccess ? "✅" : "🚫")") } // ✅ or 🚫
     */
    public var isSuccess: Bool {
-      if case .success(_) = self { return true }
+      if case .success = self { return true }
       else { return false }
    }
 }
