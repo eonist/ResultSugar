@@ -1,7 +1,7 @@
 ![Lang](https://img.shields.io/badge/Language-Swift-orange.svg)
 ![mit](https://img.shields.io/badge/License-MIT-brightgreen.svg)
 [![SwiftLint Sindre](https://img.shields.io/badge/SwiftLint-Sindre-hotpink.svg)](https://github.com/sindresorhus/swiftlint-sindre)
-![Builds](https://github.com/eonist/ResultSugar/workflows/Builds/badge.svg)
+[![Tests](https://github.com/eonist/ResultSugar/actions/workflows/Tests.yml/badge.svg)](https://github.com/eonist/ResultSugar/actions/workflows/Tests.yml)
 
 # ResultSugar
 Sugar for Result
