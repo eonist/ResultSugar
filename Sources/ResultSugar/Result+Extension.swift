@@ -68,7 +68,7 @@ extension NSError {
       self.init(domain: message, code: 0)
    }
 }
-//extension Error {
+// extension Error {
 //   /**
 //    * Convenient error method
 //    * ## Examples:
@@ -77,7 +77,7 @@ extension NSError {
 //   public static func error(_ message: String) -> NSError {
 //      return NSError(domain: message, code: 0)
 //   }
-//}
+// }
 extension Result {
    /**
     * Simple way to assert if the call was a success or not:
@@ -86,8 +86,7 @@ extension Result {
     * onComplete { print("\(0$.isSuccess ? "✅" : "🚫")") } // ✅ or 🚫
     */
    public var isSuccess: Bool {
-      if case .success = self { return true }
-      else { return false }
+      if case .success = self { return true } else { return false }
    }
 }
 // ⚠️️ Generic parameter 'Success' shadows generic parameter from outer scope with the same name; this is an error in Swift 6

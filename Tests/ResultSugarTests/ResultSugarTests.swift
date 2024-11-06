@@ -2,12 +2,6 @@ import XCTest
 import ResultSugar
 
 class ResultSugarTests: XCTestCase {
-   override func setUp() {
-      super.setUp()
-   }
-   override func tearDown() {
-      super.tearDown()
-   }
    func testExample() {
 //      XCTAssertEqual("Hello, World!", "Hello, World!")
       ResultSugarTests.assert(flag: true) { result in
